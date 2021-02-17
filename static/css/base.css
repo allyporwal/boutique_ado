@@ -8,7 +8,6 @@ body {
     height: calc(100vh - 164px);
     color: #555;
     font-family: 'Lato';
-    font-weight: 300;
 }
 
 /* from Bulma */
@@ -22,7 +21,6 @@ body {
 
 .logo-font {
     text-transform: uppercase;
-    font-weight: 300;
 }
 
 .main-logo-link {
@@ -76,13 +74,13 @@ body {
 }
 
 .overlay {
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    position: fixed;
-    background: white;
-    z-index: -1;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	position: fixed;
+	background: white;
+	z-index: -1;
 }
 
 a.category-badge > span.badge:hover {
