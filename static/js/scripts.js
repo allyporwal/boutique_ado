@@ -69,5 +69,4 @@ $('.update-link').click(function(e) {
     form.submit();
 });
 
-
-// Remove item and reload on click
+$('.toast').toast('show');
